@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <title>Search IP</title>
+</head>
+
+<body>
+    <main class="container">
+        <label>
+            <form id="form">
+                IP del usuario
+                <input required id="input" type="text" placeholder="Introduce la IP">
+                <small>Por ejemplo: 54.85.132.205</small>
+        </label>
+        <button type="submit" id="submit">
+            Buscar Información de esta IP
+        </button>
+        </form>
+
+        <div>
+            <pre id="results">
+
+            </pre>
+        </div>
+
+    </main>
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
